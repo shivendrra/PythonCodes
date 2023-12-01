@@ -20,3 +20,19 @@ def get_captions(video_url):
 
 video_url = 'https://www.youtube.com/watch?v=JOiGEI9pQBs&ab_channel=Kurzgesagt%E2%80%93InaNutshell'
 get_captions(video_url)
+
+
+
+# def fetchCaptions(vidId):
+#   try:
+#     for Ids in vidId:
+#       captionRes = youtube.captions().list(
+#         part='snippet',
+#         videoId=Ids
+#       ).execute()
+
+#       captionsId = [item['snippet']['title'] for item in captionRes['items']]
+#       return captionsId
+    
+#   except Exception as e:
+#     print(f"An error occured while fetching captions: {e}")
