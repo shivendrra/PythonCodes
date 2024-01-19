@@ -5,7 +5,7 @@ from pytube import YouTube
 from moviepy.editor import AudioFileClip
 
 # API key
-API_KEY = 'AIzaSyDoRWJ7lnJ0JuoLgEdmwxuSFj3HCA5YB8g'
+API_KEY = "ApiKey"
 
 # get the string to be searched
 search_string = input("Enter the search string: ")
